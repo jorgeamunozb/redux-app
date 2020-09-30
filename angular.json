@@ -24,7 +24,8 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css",
+              "node_modules/bootstrap/dist/css/bootstrap.min.css"
             ],
             "scripts": []
           },
@@ -119,6 +120,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "redux-app"
+    }
+  },
+  "defaultProject": "redux-app",
+  "cli": {
+    "analytics": "1b18d945-c05f-4ec7-abd4-50e3af932e8b"
+  }
 }
